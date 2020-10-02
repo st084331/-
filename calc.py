@@ -67,7 +67,5 @@ def fun(x):
 
 if __name__ == '__main__':
     calculator = Calculator(random.randint(0,100))
-    calc = 12
-    print(calc)
-    print(calc)
-    print(Calculator(calc).power(2,3).add(1, 2, 3, 5.1).multiply(4, 0.123).subtract(4, 1, -100).divide(5, integer_divide=True))
+    print('Your int:',calculator)
+    print('Result:', calculator.power(2,3).add(1, 2, 3, 5.1).multiply(4, 0.123).subtract(4, 1, -100).divide(5, integer_divide=True))
