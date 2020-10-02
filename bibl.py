@@ -54,7 +54,8 @@ class Library:
 
 if __name__ == '__main__':
     lib = Library()
-    alphabet = lib.alphabet_len('abcdef')
+    alphabet = lib.alphabet_len('abcdecf')
+    alphabet = ''.join(sorted(alphabet))
     palindrom = lib.palindrom(alphabet, 7)
     text = """Meet my family. There are five of us – my parents, my elder brother, my baby sister and me. 
     First, meet my mum and dad, Jane and Michael. My mum enjoys reading and my dad enjoys playing chess with my 
